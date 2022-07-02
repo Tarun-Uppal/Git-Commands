@@ -1,0 +1,25 @@
+Puhsing to a repository
+git add -A
+git commit -m "This is my first commit"
+git push
+
+cloneing a repository
+git clone link
+first clone the repository
+then navigate to the local folder in cmd
+
+then to to see the branches
+git branch -r
+
+then check the current branch
+git branch
+
+then to change the branch
+git checkout + the branch name
+
+Git login
+While cloning login via browser or vs code(If installed and logged in)
+While commiting 
+Run both at the start
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"

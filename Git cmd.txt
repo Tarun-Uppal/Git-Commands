@@ -23,3 +23,10 @@ While commiting
 Run both at the start
  git config --global user.email "you@example.com"
  git config --global user.name "Your Name"
+
+Roll Back to a previous commit
+git checkout +<SHA for that commit>
+Copy the files you need
+It will automatically go in headless mode so take it out using
+git checkout master
+Commit as usual after copying back the the required files 
